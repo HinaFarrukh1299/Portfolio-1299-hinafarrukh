@@ -193,6 +193,10 @@ contactMessage.value="";
 
 contactForm.addEventListener('submit',sendEmail);
 
+//Resume
+document.getElementById("email").innerHTML =
+    " hfarrukh1299" + "@" + "gmail.com";
+
 
 /*-===Style-Switcher===-*/
 const styleSwitcher = document.getElementById('style-switcher');
